@@ -1,5 +1,5 @@
-# PATC-2021 Course: Deep Learning on Supercomputers 
-## Hands-on about how to scale a Deep Learning application in the BSC's CTE-Power cluster
+# Deep Learning on Supercomputers (PATC-2021 Course)
+Hands-on about how to scale a Deep Learning application in the BSC's CTE-Power cluster
 
 * PATC_2021_Hands_on_1_GettingStarted_DL.ipynb
 
