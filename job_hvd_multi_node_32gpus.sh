@@ -22,5 +22,5 @@ HOSTS_FLAG=${HOSTS_FLAG%?}
 
 
 horovodrun --start-timeout 120 --gloo-timeout-seconds 120 -np $SLURM_NTASKS $HOSTS_FLAG --network-interface ib0 --gloo \
-python3.7 tf2_keras_cifar_hvd.py --epochs 32 --batch_size 512 --model_name='resnet'
+python3.7 tf2_keras_cifar_hvd.py --epochs 10 --batch_size 512 --model_name='resnet'
 
