@@ -14,4 +14,4 @@ module purge; module load gcc/8.3.0 cuda/10.2 cudnn/7.6.4 nccl/2.4.8 tensorrt/6.
 
 
 horovodrun -np $SLURM_NTASKS -H localhost:$SLURM_NTASKS --gloo \
-python3.7 tf2_keras_cifar_hvd.py --epochs 16 --batch_size 512 --model_name='resnet'
+python3.7 tf2_keras_cifar_hvd.py --epochs 10 --batch_size 512 --model_name='resnet'
