@@ -5,7 +5,7 @@
 #SBATCH --error=ResNet50_%j.err
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=40
+#SBATCH --cpus-per-task=160
 #SBATCH --gres=gpu:4
 #SBATCH --time=00:05:00
 
