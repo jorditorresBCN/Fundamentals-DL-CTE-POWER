@@ -15,3 +15,4 @@ python ResNet50.py --epochs 5 --batch_size 256 --n_gpus 1
 python ResNet50.py --epochs 5 --batch_size 512 --n_gpus 2
 python ResNet50.py --epochs 5 --batch_size 1024 --n_gpus 4
 
+
