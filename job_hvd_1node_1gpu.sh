@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name horovod1
+#SBATCH --job-name horovod_1GPU
 #SBATCH -D .
 #SBATCH --output jobs/hvd_1_%j.output
 #SBATCH --error jobs/hvd_1_%j.err
