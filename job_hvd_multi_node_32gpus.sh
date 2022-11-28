@@ -5,8 +5,8 @@
 #SBATCH --error /gpfs/home/nct01/nct01035/Lab10_horovod/jobs/hvd_multinode_32gpus_%j.err
 
 #SBATCH --ntasks-per-node=4     # must be added to create SLURM_NTASKS_PER_NODE var
-#SBATCH -n 32                  # ntasks must be mutiple of ntasks-per-node. nnodes is ntasks/ntasks-per-node
-#SBATCH -c 40                  # must be 160/ntasks-per-node. 160 is ncpus per node
+#SBATCH -n 32                   # ntasks must be mutiple of ntasks-per-node. nnodes is ntasks/ntasks-per-node
+#SBATCH -c 40                   # must be 40 per gpu
 #SBATCH --gres='gpu:4'          # must be ntasks-per-node
 #SBATCH --time 00:55:00
 ##SBATCH --exclusive
