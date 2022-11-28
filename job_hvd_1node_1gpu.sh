@@ -4,8 +4,8 @@
 #SBATCH --output jobs/hvd_1_%j.output
 #SBATCH --error jobs/hvd_1_%j.err
 #SBATCH --ntasks-per-node=1     # must be added to create SLURM_NTASKS_PER_NODE var
-#SBATCH --nodes=1                # ntasks must be mutiple of ntasks-per-node. nnodes is ntasks/ntasks-per-node
-#SBATCH --cpus-per-task 40       # must be 160/ntasks-per-node. 160 is ncpus per node
+#SBATCH --nodes=1               # ntasks must be mutiple of ntasks-per-node. nnodes is ntasks/ntasks-per-node
+#SBATCH --cpus-per-task 40      # must be 40 per gpu
 #SBATCH --gres='gpu:1'          # must be ntasks-per-node
 #SBATCH --time 02:00:00
 
