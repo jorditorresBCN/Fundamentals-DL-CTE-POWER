@@ -54,3 +54,5 @@ trainer = Trainer(
     eval_dataset=full_eval_dataset,
     compute_metrics=compute_metrics,
 )
+
+trainer.train()
