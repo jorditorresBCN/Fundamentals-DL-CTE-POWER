@@ -7,7 +7,7 @@ import argparse
 import time
 import sys
 
-sys.path.append('/gpfs/projects/nct00/nct00036/cifar-utils')
+sys.path.append('/gpfs/projects/nct00/nct00010/cifar-utils')
 from cifar import load_cifar
 
 hvd.init()
